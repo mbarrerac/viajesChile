@@ -1,0 +1,20 @@
+body {
+    font-family: "Cabin", sans-serif !important;
+    font-weight: 400 !important;
+    font-style: normal !important;
+    font-size: 16px !important; /* Tamaño de fuente predeterminado */
+} 
+
+nav {
+    background-image: url('../img/carousel1.jpg'); /* Reemplaza 'ruta/a/tu/imagen.jpg' con la ruta de tu imagen */
+    background-size: cover; /* Ajusta la imagen de fondo para que cubra todo el área */
+    background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+}
+
+nav div a img{
+    width: 2em;
+}
+
+nav .navbar-nav .nav-link.textoNav {
+    color: #ffffff !important;
+}

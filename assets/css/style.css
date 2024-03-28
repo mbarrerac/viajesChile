@@ -5,11 +5,12 @@ body {
     font-size: 16px !important; /* Tamaño de fuente predeterminado */
 } 
 
+
+
+
 /*Nav*/
 nav {
-    background-image: url('../img/carousel1.jpg'); /* Reemplaza 'ruta/a/tu/imagen.jpg' con la ruta de tu imagen */
-    background-size: cover; /* Ajusta la imagen de fondo para que cubra todo el área */
-    background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+ background-color: transparent;
 }
 
 nav div a img{
@@ -22,16 +23,14 @@ nav .navbar-nav .nav-link.textoNav {
 /*footer*/
 
 .footer {
-    padding-left: 5em;
-    padding-right: 5em;
-    background-color: #08ccde;
-    margin-top: 2em;
-  }
-
-  .footer .fab {
-    color: white;
+    /* padding-left: 5em;
+    padding-right: 5em; */
+    background-color: #0dcad0;
   }
   
   .footer h3 {
     margin-bottom: 0;
   }
+.footer .fab {
+    color: white;
+}

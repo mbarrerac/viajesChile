@@ -5,6 +5,11 @@ body {
     font-size: 16px !important; /* Tamaño de fuente predeterminado */
 } 
 
+.carousel-item img {
+    margin: 0;
+    padding: 0;
+    
+}
 
 
 

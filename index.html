@@ -28,11 +28,41 @@
 </head>
 
 <body>
-    <!-- Barra de navegación -->
     <header>
-       
+              <!-- Barra de navegación -->
+        <!-- <nav class="container-fluid navbar navbar-expand-lg navbar-dark fixed-top" data-bs-theme="dark"> -->
+         <!-- carrusel -->
+         <div id="carouselExample" class="carousel slide">
 
-        <div id="carouselExample" class="carousel slide">
+            <nav id="cambiarColorNav" class="container-fluid navbar navbar-expand-lg fixed-top navbar-light"   >
+              
+              <div class="container">
+                  <a class="navbar-brand" href="#"><img src="./assets/img/viajes.svg" alt=""></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                      <ul class="navbar-nav ms-auto fw-light" style="font-family: 'Cabin', sans-serif;">
+                          <li class="nav-item">
+                              <a class="nav-link active textoNav" aria-current="page" href="#">Inicio</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link textoNav" href="#">¿Quienes somos?</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link textoNav" href="#">Destacados</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link textoNav" href="#">Contacto</a>
+                          </li>                   
+                      </ul>
+                  </div>
+              </div>
+           </nav>
+
+
+
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img src="./assets/img/carousel1.jpg" class="d-block w-100 " alt="...">
@@ -52,37 +82,111 @@
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Next</span>
             </button>
-        </div>
-        <nav class="container-fluid navbar navbar-expand-lg navbar-dark fixed-top" data-bs-theme="dark">
-            <div class="container">
-                <a class="navbar-brand" href="#"><img src="./assets/img/viajes.svg" alt=""></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto fw-light" style="font-family: 'Cabin', sans-serif;">
-                        <li class="nav-item">
-                            <a class="nav-link active textoNav" aria-current="page" href="#">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link textoNav" href="#">Quienes somos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link textoNav" href="#">Destacados</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link textoNav" href="#">Contacto</a>
-                        </li>                   
-                    </ul>
-                </div>
-            </div>
-        </nav>
+         </div>         
 
-
+ 
+ 
 
     </header>
+
  
+    <!-- Primera seccion  ¿QUIENES SOMOS? -->
+    <section>
+        <h2 class="text-center pt-4 pb-4 tituloCard">¿QUIENES SOMOS?</h2> 
+        <!-- recetas  -->
+        <div class="container mt-5">
+          <div class="row justify-content-center">
+            <div class="col-md-4 ">
+                <div class="card cardSeccion1 pb-3">
+                    <div class="card-body">
+                      <div class="rectangulo-celeste mb-3 d-flex justify-content-center align-items-center">
+                        <i class="fas fa-plane"></i>
+                      </div>
+                        
+                        <p class="card-text">
+                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum dolore laborum veniam tempora ab ullam, nam enim corporis quam eum sit. Neque voluptatem esse cum atque adipisci, saepe reiciendis non.
+                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum dolore laborum veniam tempora ab ullam, nam enim corporis quam eum sit. Neque voluptatem esse cum atque adipisci, saepe reiciendis non.
+                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum dolore laborum veniam tempora ab ullam, nam enim corporis quam eum sit. Neque voluptatem esse cum atque adipisci, saepe reiciendis non.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card cardSeccion1 pb-3">
+                    <div class="card-body">
+                        <p class="card-text">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum dolore laborum veniam tempora ab ullam, nam enim corporis quam eum sit. Neque voluptatem esse cum atque adipisci, saepe reiciendis non.
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum dolore laborum veniam tempora ab ullam, nam enim corporis quam eum sit. Neque voluptatem esse cum atque adipisci, saepe reiciendis non.
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum dolore laborum veniam tempora ab ullam, nam enim corporis quam eum sit. Neque voluptatem esse cum atque adipisci, saepe reiciendis non.
+                       </p>
+                       <div class="rectangulo-celeste mb-3 d-flex justify-content-center align-items-center">
+                        <i class="fas fa-mountain"></i>
+                      </div>                       
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card cardSeccion1 pb-3">
+                  <div class="card-body">
+                    <div class="rectangulo-celeste mb-3 d-flex justify-content-center align-items-center">
+                      <i class="fas fa-route"></i>
+                    </div>      
+                      <p class="card-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum dolore laborum veniam tempora ab ullam, nam enim corporis quam eum sit. Neque voluptatem esse cum atque adipisci, saepe reiciendis non.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum dolore laborum veniam tempora ab ullam, nam enim corporis quam eum sit. Neque voluptatem esse cum atque adipisci, saepe reiciendis non.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum dolore laborum veniam tempora ab ullam, nam enim corporis quam eum sit. Neque voluptatem esse cum atque adipisci, saepe reiciendis non.
+                     </p>
+                  </div>
+              </div>
+            </div>
+          </div>
+      </div>      
+    </section>
+    <!-- Segunda seccion  DESATACADOS -->
+  <section>
+    <h2 class="text-center pt-4 pb-4 tituloCard">DESTACADOS</h2> 
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card custom-card h-100">
+            <img src="./assets/img/card1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Lorem ipsum dolor sit</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card custom-card h-100">
+            <img src="./assets/img/card2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Lorem ipsum dolor sit amet consectetur adipisicing</h5>
+              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti ipsam possimus officia! Maxime minima, ducimus quod.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card custom-card h-100">
+            <img src="./assets/img/card3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Lorem ipsum dolor sit</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card custom-card h-100">
+            <img src="./assets/img/card4.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Lorem ipsum dolor sit amet consectetur adipisicing</h5>
+              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti ipsam possimus officia! Maxime minima, ducimus quod. Corrupti ipsam possimus officia! Maxime minima, ducimus quod.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+    <!-- Footer -->
     <footer class="footer  text-light py-3 pl-5 pr-5" >
         <div class="container">
           <div class="row align-items-center">

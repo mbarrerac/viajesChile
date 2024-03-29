@@ -3,6 +3,7 @@ body {
     font-weight: 400 !important;
     font-style: normal !important;
     font-size: 16px !important; /* Tamaño de fuente predeterminado */
+    background-color: #000000 !important;
 } 
 
 .carousel-item img {
@@ -14,16 +15,38 @@ body {
 
 
 /*Nav*/
-nav {
- background-color: transparent;
-}
 
+#cambiarColorNav {
+    background-color: rgba(13, 202, 208, 0.9) !important;
+}
 nav div a img{
     width: 2em;
 }
 
 nav .navbar-nav .nav-link.textoNav {
     color: #ffffff !important;
+}
+/*seccion 1*/
+.tituloCard {
+    /* font-weight: bold; */
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #000000;
+}
+.cardSeccion1 {
+    border: none !important; /* Elimina el borde */
+    color: #ffffff !important;
+    background-color: #000000 !important;    
+}
+.rectangulo-celeste {
+    background-color: #0dcad0;
+    font-size: 2em
+}
+
+/*seccion 2*/
+.custom-card {
+    width: 18rem;
+    margin: 0.5rem;
 }
 /*footer*/
 

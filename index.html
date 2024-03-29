@@ -32,9 +32,9 @@
               <!-- Barra de navegación -->
         <!-- <nav class="container-fluid navbar navbar-expand-lg navbar-dark fixed-top" data-bs-theme="dark"> -->
          <!-- carrusel -->
-         <div id="carouselExample" class="carousel slide">
+         <div id="carouselExample" class="carousel slide mb-5">
 
-            <nav id="cambiarColorNav" class="container-fluid navbar navbar-expand-lg fixed-top navbar-light"   >
+            <nav id="seccionNav" class="container-fluid navbar navbar-expand-lg fixed-top navbar-light"   >
               
               <div class="container">
                   <a class="navbar-brand" href="#"><img src="./assets/img/viajes.svg" alt=""></a>
@@ -43,18 +43,18 @@
                       <span class="navbar-toggler-icon"></span>
                   </button>
                   <div class="collapse navbar-collapse" id="navbarNav">
-                      <ul class="navbar-nav ms-auto fw-light" style="font-family: 'Cabin', sans-serif;">
+                      <ul class="navbar-nav ms-auto fw-light" >
                           <li class="nav-item">
                               <a class="nav-link active textoNav" aria-current="page" href="#">Inicio</a>
                           </li>
                           <li class="nav-item">
-                              <a class="nav-link textoNav" href="#">¿Quienes somos?</a>
+                              <a class="nav-link textoNav" href="#seccionQuienesSomos">¿Quienes somos?</a>
                           </li>
                           <li class="nav-item">
-                              <a class="nav-link textoNav" href="#">Destacados</a>
+                              <a class="nav-link textoNav" href="#seccionDestacados">Destacados</a>
                           </li>
                           <li class="nav-item">
-                              <a class="nav-link textoNav" href="#">Contacto</a>
+                              <a class="nav-link textoNav" href="#seccionContacto">Contacto</a>
                           </li>                   
                       </ul>
                   </div>
@@ -91,9 +91,9 @@
 
  
     <!-- Primera seccion  ¿QUIENES SOMOS? -->
-    <section>
+    <section id="seccionQuienesSomos">
         <h2 class="text-center pt-4 pb-4 tituloCard">¿QUIENES SOMOS?</h2> 
-        <!-- recetas  -->
+       
         <div class="container mt-5">
           <div class="row justify-content-center">
             <div class="col-md-4 ">
@@ -143,9 +143,9 @@
       </div>      
     </section>
     <!-- Segunda seccion  DESATACADOS -->
-    <section>
+    <section id="seccionDestacados">
       <h2 class="text-center pt-4 pb-4 tituloCard">DESTACADOS</h2> 
-      <div class="container mb-5">
+      <div class="container mt-5 mb-5">
         <div class="row justify-content-center">
           <div class="col-12 col-md-6 col-lg-3 mb-3">
             <div class="card custom-card h-100 ">
@@ -186,19 +186,51 @@
         </div>
       </div>
     </section>
+     <!-- Seccion 3 formulario-->
+    <section id="seccionContacto" >
+      <h2 class="text-center pt-4 pb-4 tituloCard">CONTACTO</h2>
+      <div class="container py-5" id="idBackgroundColor">
+          <div class="row justify-content-center">
+              <div class="col-md-12">
+                  <div class="card border-0" id="idBackgroundColor">    
+                      <div class="card-body ">
+               
+                          <form >
+                              <div class="mb-3">
+                                 <label for="exampleFormControlTextarea1" class="form-label">Nombre</label>
+                                  <input type="text" class="form-control" id="nombre" placeholder="">
+                              </div>
+                              <div class="mb-3">
+                                <label for="exampleFormControlTextarea1" class="form-label">Correo electrónico</label>
+                                  <input type="email" class="form-control" id="email" placeholder="">
+                              </div>
+                              <div class="mb-3">
+                                  <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                                   <textarea class="form-control" id="ControlTextarea1" ></textarea>
+                              </div>
+                              <div class="text-left">
+                                  <button type="submit" class="btn btn-outline-dark btn-block btn btn-light" id="btnEnviarCorreo" >Enviar</button>
+                              </div>
+                          </form>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
     <!-- Footer -->
-    <footer class="footer  text-light py-3 pl-5 pr-5" >
+    <footer class="footer  text-light p-4" >
         <div class="container">
           <div class="row align-items-center">
-            <div class="col-6">
-              <h5 class="mb-0">VIAJES CHILE</h5>
+            <div class="col-6 text-center">
+              <h4 class="mb-0">VIAJES CHILE</h4>
             </div>
-            <div class="col-6 text-end ">
-              <ul class="list-inline mb-0">
-                <li class="list-inline-item"><a href="#"><i class="fab fa-github"></i></a></li>
-                <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin"></i></a></li>
-                <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
-                <li class="list-inline-item"><a href="#"><i class="fab fa-facebook"></i></a></li>
+            <div class="col-6 text-center ">
+              <ul class="list-inline mb-0 accordion-body">
+                <li class="list-inline-item"><a href="https://github.com"><i class="fab fa-github tamanoIcon" id="ajustarTamanoFuente"></i></a></li>
+                <li class="list-inline-item"><a href="https://www.linkedin.com"><i class="fab fa-linkedin tamanoIcon" id="ajustarTamanoFuente"></i></a></li>
+                <li class="list-inline-item"><a href="https://twitter.com"><i class="fab fa-twitter tamanoIcon" id="ajustarTamanoFuente"></i></a></li>
+                <li class="list-inline-item"><a href="https://www.facebook.com"><i class="fab fa-facebook tamanoIcon" id="ajustarTamanoFuente"></i></a></li>
               </ul>
             </div>
           </div>

@@ -16,7 +16,7 @@ body {
 
 /*Nav*/
 
-#cambiarColorNav {
+#seccionNav {
     background-color: rgba(13, 202, 208, 0.9) !important;
 }
 nav div a img{
@@ -26,7 +26,7 @@ nav div a img{
 nav .navbar-nav .nav-link.textoNav {
     color: #ffffff !important;
 }
-/*seccion 1*/
+/*seccion 1 Quienes somos*/
 .tituloCard {
     /* font-weight: bold; */
     font-size: 20px;
@@ -43,17 +43,27 @@ nav .navbar-nav .nav-link.textoNav {
     font-size: 2em
 }
 
-/*seccion 2*/
+/*seccion 2 Destacados*/
 .custom-card {
     width: 18rem;
     margin: auto;
-
+    background-color: #0dcad0 !important;
+    color: #ffffff !important; 
 }
+/*seccion 3 Formulario*/
+#idBackgroundColor {
+    background-color: #000000 !important; 
+    color: #ffffff!important; 
+}
+#btnEnviarCorreo {
+    background-color: #0dcad0;
+    color: #ffffff; 
+}
+
+
 /*footer*/
 
 .footer {
-    /* padding-left: 5em;
-    padding-right: 5em; */
     background-color: #0dcad0;
   }
   
@@ -62,4 +72,6 @@ nav .navbar-nav .nav-link.textoNav {
   }
 .footer .fab {
     color: white;
+    font-size: 2em;
+    margin:auto
 }
